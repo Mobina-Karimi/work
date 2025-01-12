@@ -4,11 +4,10 @@ import { getCategory } from "services/admin"
 import { getCookie } from "utils/cookie"
 import axios from "axios"
 import toast from "react-hot-toast"
-
 import styles from "./AddPost.module.css"
 
 
- function AddPost() {
+function AddPost() {
     const [form, setForm] = useState({
         title : "",
         content : "",

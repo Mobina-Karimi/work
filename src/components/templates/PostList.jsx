@@ -34,7 +34,7 @@ function PostList() {
     const deleteHandler = (id) => {
         deletePostMutation(id);
     };
-    
+    // console.log(data)
   return (
     <div className={styles.list}>
         {
