@@ -1,0 +1,21 @@
+.homePage {
+  display: flex;
+  flex-direction: row;
+}
+
+.pageContent {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .homePage {
+    flex-direction: column; /* در حالت موبایل، صفحه به صورت عمودی نمایش داده می‌شود */
+  }
+
+  .pageContent {
+    flex-direction: column; /* محتوا در موبایل به صورت ستونی نمایش داده می‌شود */
+  }
+}

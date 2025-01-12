@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+  }
+  
+  .image {
+    width: 550px;
+    height: 300px;
+  }
+
+  h3 {
+    margin: 20px 0;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #a62626;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px; 
+  }
+  
